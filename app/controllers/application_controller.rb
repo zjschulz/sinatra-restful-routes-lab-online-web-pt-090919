@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
   end
 
   # CREATE
-  get '/articles/new' do
+  get '/new' do
     erb :new
   end
  
